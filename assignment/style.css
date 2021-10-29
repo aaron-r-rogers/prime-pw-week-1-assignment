@@ -1,11 +1,50 @@
 /* Give your page a fun background color */
+body {
+  background-image: url("https://wyocc.files.wordpress.com/2015/03/wood-background.jpg");
+  color: #FFFFFF;
+  font-family: 'Josefin Sans', 'Lato', sans-serif;
+  margin: 10% 20%;
+}
+
+#container {
+  background-color: #3C8EAF;
+  padding: 50px;
+  border: 8px inset;
+  border-color: #0B2E3C;
+  border-radius: 15px;
+  border-style: groove;
+}
 
 /* Make the header and footer a different color from the background */
+.header-footer {
+  color: #FCD546;
+  background-color: #3C8EAF;
+}
 
 /* Align the h1 containing your name in the center of the header*/
+h1 {
+  text-align: center;
+}
 
 /* Make your p tag a different color and italic */
+p {
+  font-style: italic;
+}
 
 /* Put a border around your image */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: double;
+  border-width: 8px;
+  border-color: #0B2E3C;
+  border-spacing: 8px;
+  padding: 8px;
+  align-self: auto;
+}
 
 /* Change the font-family of your list */
+li {
+  font-family: courier;
+}
